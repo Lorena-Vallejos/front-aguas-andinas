@@ -7,16 +7,30 @@
     width: 100%;
 
     @media (min-width: 768px) {
-        height: 1100px;
-    }    
+        height: 1200px;
+    }
 
     .card-cont {
         background: #fafafa;
         border-radius: 1rem;
-        padding: 3rem;
+        padding: 1rem;
+
+        @media (min-width: 991px) {
+            padding: 3rem;
+        }
 
         .cont-intro {
-            
+
+            .padd-mob {
+                padding: 2rem;
+            }
+
+            @media (min-width: 991px) {
+                .padd-mob {
+                    padding: 0rem;
+                }
+            }
+
             p {
                 color: #7b7b7b;
             }
@@ -34,7 +48,7 @@
 
             .card {
                 border: initial;
-                border-bottom: 1px solid rgba(0,0,0,.125);
+                border-bottom: 1px solid rgba(0, 0, 0, .125);
 
                 .card-header {
                     background-color: transparent;
@@ -79,6 +93,22 @@
                         color: #7b7b7b;
                         font-weight: 500;
                         font-size: .9rem;
+                    }
+
+                    .btn-descarga {
+                        font-size: .75rem;
+                        font-weight: 500;
+                        color: #fff;
+                        background: #93AF3B;
+                        display: inline-block;
+                        padding: .8rem 2rem .7rem;
+                        border-radius: 5px;
+                        text-transform: uppercase;
+                        margin-top: 1rem;
+
+                        &:hover {
+                            background: #73892e;
+                        }
                     }
 
                 }

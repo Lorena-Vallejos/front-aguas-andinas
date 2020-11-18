@@ -1,6 +1,6 @@
-.titulo{
+.titulo {
 
-    &-white{
+    &-white {
         text-align: left;
         font-size: 1.9rem;
         color: #ffffff;
@@ -14,17 +14,22 @@
         color: #004C94;
         font-weight: 800;
         margin: 0 0 2.5rem;
-      }
+    }
 }
 
 // Rules - Mobile
 @media (max-width: $md) {
-    .titulo{
-        &-white{
-            text-align: left;
+    .titulo {
+        &-white {
+            text-align: center;
             font-size: 1.5rem;
             font-weight: 400;
             margin: 0 0 2rem;
+
+            &-left {
+                text-align: left;
+            }
+
         }
 
         &-blue {
@@ -35,6 +40,5 @@
         }
 
     }
-    
-}
 
+}

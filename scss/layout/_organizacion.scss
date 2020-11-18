@@ -4,7 +4,7 @@
     background-image: url(../images/bg-light.svg);
     background-repeat: no-repeat;
     background-position: center bottom;
-    height: 7000px;
+    height: 4700px;
     width: 100%;
 
     @media (min-width: 768px) {
@@ -14,7 +14,11 @@
     .card-cont {
         background: #fafafa;
         border-radius: 1rem;
-        padding: 3rem;
+        padding: 1rem;
+
+        @media (min-width: 991px) {
+            padding: 3rem;
+        }
 
         .accordion {
             background: #ffffff;
@@ -74,8 +78,12 @@
                                 width: 100%;
 
                                 img {
-                                    width: 170px;
+                                    width: 100%;
                                     margin-bottom: 1rem;
+
+                                    @media (min-width: 991px) {
+                                        width: 170px;
+                                    }
                                 }
 
                             }
@@ -126,4 +134,5 @@
         }
 
     }
+
 }

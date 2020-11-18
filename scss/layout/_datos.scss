@@ -1,13 +1,14 @@
 .datos {
-    padding: 4rem 0 2rem;
+    padding: 0;
     background: #f2f2f2;
     background-repeat: no-repeat;
     background-position: center bottom;
-    height: 400px;
+    height: 300px;
     width: 100%;
 
     @media (min-width: 768px) {
         height: 900px;
+        padding: 4rem 0 2rem;
     }    
 
     .cont-info {
